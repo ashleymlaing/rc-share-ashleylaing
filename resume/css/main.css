@@ -115,9 +115,9 @@ textarea {
 }
 #leftbox
 {
-  width:40%;
   float: left;
   height: 1600px;
+  width: 20%;
 }
 #skills
 {
