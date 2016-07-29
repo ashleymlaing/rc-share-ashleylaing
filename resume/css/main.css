@@ -94,51 +94,105 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   * {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+    }
+header
+{
+  background: lightpink;
+  text-align: center;
+  position: fixed;
+  right:0 ;
+  bottom:450px ;
+  left: 0;
+  margin:0 ;
+}
+header p
+{
+  word-spacing: 20px;
+}
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+nav a
+{
+  padding: 25px;
+  color: black;
+  text-decoration: none;
+  font-size: 18pt;
+  font-weight: bold;
+}
+.right
+{
+  clear: right;
+  float: right;
+  margin: -40px 0px 0px 0px;
+  padding-left: 50px;
+}
+.location
+{
+  margin: -10px 0px 0px 0px;
+}
 #top
 {
-  text-align: center;
-}
-#nav
-{
-  text-align: center;
-  background-color: #ccccb3;
-  border-bottom: 2px solid black;
-}
-#nav a
-{
-  padding: 65px;
-  color:black;
-  font-weight: bold;
-  font-size: 18pt;
-  text-align: center;
-  text-decoration: none;
-}
-#leftbox
-{
-  float: left;
-  height: 1600px;
-  width: 20%;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 #skills
 {
-  margin-bottom: 125px;
+  border-bottom: 1px solid black;
+  margin-bottom: 25px;
+  padding: 25px 20px 25px 20px;
+}
+#education
+{
+  padding: 25px 20px 25px 20px;
+}
+#education h3 a
+{
+  margin-bottom: 40px;
+}
+main
+{
+  display: flex;
+  flex-direction: row;
 }
 #work
 {
-  float:right;
-  height: 1600px;
-  border-left: 2px solid black;
-  padding-left: 10px;
+  padding-top: 200px;
+  clear: both;
+  width: 50%;
+  margin: 10px 5px 10px 10px;
+  border-left: 1px solid black;
+  padding-left: 60px;
+}
+h5
+{
+  margin-top: -30px;
+}
+h2
+{
+  text-align: center;
 }
 footer
 {
   clear: both;
+  border-top: 1px solid black;
   text-align: center;
-  border-top: 2px solid black;
+  background: lightpink;
 }
-
-
-
+h3
+{
+  margin-top: 40px;
+}
 
 
 
