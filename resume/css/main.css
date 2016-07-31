@@ -112,7 +112,7 @@ header
 }
 header p
 {
-  word-spacing: 20px;
+  word-spacing: 10px;
 }
 nav
 {
@@ -142,20 +142,24 @@ nav a
 }
 #top
 {
-  margin-top: 250px;
   display: flex;
   flex-direction: column;
   width: 40%;
 }
 #skills
 {
+  margin-top: 20px;
   border-bottom: 1px solid black;
   margin-bottom: 25px;
-  padding: 25px 20px 25px 20px;
+  padding: 210px 20px 125px 20px;
+}
+#skills p
+{
+  line-height: 3;
 }
 #education
 {
-  padding: 25px 20px 25px 20px;
+  padding: 210px 20px 25px 20px;
 }
 #education h3 a
 {
@@ -171,7 +175,7 @@ main
   padding-top: 275px;
   clear: both;
   width: 50%;
-  margin: 10px 5px 10px 10px;
+  margin: 0px 5px 10px 10px;
   border-left: 1px solid black;
   padding-left: 60px;
 }
@@ -182,6 +186,10 @@ h5
 h2
 {
   text-align: center;
+}
+ul li
+{
+  padding: 10px;
 }
 footer
 {
