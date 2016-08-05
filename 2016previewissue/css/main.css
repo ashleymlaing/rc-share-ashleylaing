@@ -144,13 +144,6 @@ div
 {
   width: 55%;
 }
-.rightcontent
-{
-  border: 1px solid green;
-  width: 30%;
-  text-align: left;
-  float: right;
-}
 h2
 {
   font-size: 120pt;
@@ -170,7 +163,23 @@ h2
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
-
+h3
+{
+  font-size: 40pt;
+  font-weight: bold;
+}
+div h3
+{
+  padding: 0px 0px 0px 0px;
+}
+.rightcontent
+{
+  border: 1px solid green;
+  width: 30%;
+  text-align: left;
+  float: right;
+  margin: 0px 0px 0px 0px;
+}
 
 
 
