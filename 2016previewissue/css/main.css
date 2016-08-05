@@ -94,110 +94,92 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-header h4, h2, h3
+body
 {
-  color: red;
-}
-header section
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-header div p
-{
-  font-size: 18pt;
-  margin-top: -30px;
+  background: yellow;
+  margin: 30px auto;
 }
 h1
 {
-  font-size: 140pt;
-  font-weight: lighter;
-  font-family: 'Playfair Display', serif;
+  color:white;
+  font-size: 240pt;
+  margin: -150px 0px -150px 0px;
+  border-top: 1px dotted black;
+  line-height: 280px;
+}
+section
+{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 10px 195px 0px;
+}
+.small
+{
+  width: 18%;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+#box
+{
+  border: double black;
+  margin: 0px 0px 0px 0px;
+}
+div
+{
+  border: 1px solid red;
   text-align: center;
 }
-header>p
+.middle
 {
-  font-size:12pt;
+  margin-bottom: 80px;
 }
-.logoright
+.smalldiv
 {
-  text-align: right;
+  width: 20%;
 }
-.logo
+.longdiv
 {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid white;
+  width: 55%;
 }
-.logo h1
+.rightcontent
 {
-    margin: -85px 0px -60px 0px;
-}
-.background
-{
-  background-image: url(http://cdn87.psbin.com/img/mw=455/mh=295/cr=n/d=q73jv/4pcxf2reowzluv9a.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: -70px;
-  padding: 0px 0px 0px 0px;
+  border: 1px solid green;
+  width: 30%;
+  text-align: left;
+  float: right;
 }
 h2
 {
-  font-size: 48pt;
+  font-size: 120pt;
 }
-h3
+.content
 {
-  font-size: 36pt;
+  margin: -60px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
-.rightcorner
+.content h2
 {
-    transform: translate(1064px) rotate(-31deg);
-    transform-origin: 0 130px;
-    width: 280px;
-    background: white;
+  margin: 50px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
-.rightcorner p
+.content.three h2
 {
-  color: black;
-  font-size: 12pt;
-  text-align: center;
-  margin: -18px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
-.rightcorner .addpage
-{
-  text-align: right;
-  font-size: 8pt;
-}
-img
-{
-  width: 100%;
 
-}
-.whitetext
-{
-  color: white;
-  font-size: 24pt;
-  margin: -65px 0px -45px 30px;
-  font-weight: bold;
-}
-.leftcontent
-{
-  width: 50%;
-  margin: 50px 0px 0px 50px;
-  background: linear-gradient(to bottom right, black, rgba(0,0,0,0));
-}
-span
-{
-  font-family: 'Sorts Mill Goudy', serif;
-}
+
+
+
+
 
 
 
 /* ==========================================================================
-   Helper classses
+   Helper classes
    ========================================================================== */
 
 /*
