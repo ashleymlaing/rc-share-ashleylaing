@@ -185,5 +185,30 @@ i{
 }
 .footerright a{
   margin: 0 0 20px 0;
+  padding: 0 10px 0 0;
 }
-@media
+@media only screen and (max-width:810px) {
+
+  header{
+    width: 80%;
+    margin: 0 0 -250px 0;
+  }
+  .floatnav a{
+    padding: 0 0 0 0;
+  }
+  .bottomnav{
+    display: none;
+  }
+  .flexbox{
+    flex-wrap: wrap;
+  }
+  .aboutpic{
+    display: none;
+  }
+  .story{
+    margin: 0 0 -230px 0;
+  }
+  .last{
+    margin-top: 20px;
+  }
+}
