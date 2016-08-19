@@ -57,6 +57,18 @@ nav h4{
 
 }
 
+.hamburger{
+  float:right;
+  display:none;
+}
+.cross{
+  display:none;
+  float:right;
+  font-size:222%;
+  height:4%;
+  width:6%;
+
+}
 .borderlink{
   border: 1px solid white;
 }
@@ -271,11 +283,16 @@ margin-bottom: 3px;
 }
 
 header nav a {
-display: block;
+display: none;
 padding: 10px;
 text-align: center;
 }
-
+.hamburger{
+  display:block;
+}
+.cross{
+ display:none;
+}
 .about{
 padding-top: -5px;
 margin: -360px 0 0 0;
@@ -310,11 +327,16 @@ margin-bottom: 3px;
 }
 
 header nav a {
-display: block;
+display: none;
 padding: 10px;
 text-align: center;
 }
-
+.hamburger{
+  display:block;
+}
+.cross{
+ display:none;
+}
 .about{
 padding-top: -5px;
 margin: -75px 0 0 0;
