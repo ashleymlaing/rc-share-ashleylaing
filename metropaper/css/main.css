@@ -16,7 +16,7 @@ header .right{
 .MBA{
   background-color: black;
   color: white;
-  margin-right: -40%;
+  margin-right: -35%;
 }
 .time{
   background-color: red;
@@ -43,14 +43,35 @@ header .right{
   height:25%;
   padding-top:2%;
 }
+.metro h2{
+  margin: -3% 0% 0% 7%;
+}
+.metro p{
+  margin: 0% 0% 2% 0%;
+  padding: 1% 0% 2% 7%;
+}
 .rio{
   background-color:green;
   color:white;
 }
 .rio img{
-  width:57%;
+  width:65%;
   height:10%;
-  margin: -30% 0% 0% 43%;
+  margin: -30% 0% -2% 35%;
+  z-index: 0;
+}
+.rio h3{
+  font-size: 200%;
+  text-transform: uppercase;
+  margin: 0% 0% 2% 17%;
+  padding: 4% 0% 0% 0%;
+}
+.rio p{
+  font-weight: bold;
+  z-index: 1;
+  font-size: 105%;
+  margin: -6% 0% 1% 3%;
+  padding: 0% 0% 5% 0%;
 }
 .right div{
   width:100%;
@@ -172,7 +193,18 @@ footer img{
   margin-bottom: -1%;
   text-decoration: underline;
 }
+.footertext a{
+  color: white;
+  font-weight: bold;
+}
+.footertext .bold{
+  font-weight: bold;
+}
 .footertext .lastline{
   clear: both;
   color: blue;
+}
+.lastline span{
+  text-transform: uppercase;
+  font-weight: bold;
 }
