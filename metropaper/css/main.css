@@ -45,10 +45,15 @@ header .right{
 }
 .metro h2{
   margin: -3% 0% 0% 7%;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 .metro p{
   margin: 0% 0% 2% 0%;
   padding: 1% 0% 2% 7%;
+}
+.metro span{
+  font-weight: bold;
 }
 .rio{
   background-color:green;
