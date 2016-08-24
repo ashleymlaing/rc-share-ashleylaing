@@ -184,10 +184,8 @@ footer img{
   margin-right: 2%;
 }
 .footerright{
-  float: right;
-  position: absolute;
-  top: 208%;
-  left: 75%;
+  margin: 0% 0% 0% 50%;
+  font-weight: normal;
 }
 .footertext{
   width: 75%;
